@@ -1,0 +1,15 @@
+queue: true
+queue_url: true
+sent: true
+batch ok: 10/10
+received: 12
+utf-8 body intact: true
+attribute: refund
+receive count: 1
+back after visibility 0: true
+deleted: 12
+left: 0
+fifo: step 0,step 1,step 2,step 3,step 4
+missing: true
+refused: sqs: a message body cannot be empty; delay_seconds must be 0 to 900
+done
